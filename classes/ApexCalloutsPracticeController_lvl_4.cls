@@ -3,6 +3,10 @@
  */
 
 public with sharing class ApexCalloutsPracticeController_lvl_4 {
+    publick String methodA(){
+	return 'Hi!'; 
+    }
+	
     @RemoteAction
     public static String putStringJSON(String dateSelect) {
         String stringJson;
