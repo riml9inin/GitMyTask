@@ -4,9 +4,16 @@
 
 public with sharing class ApexCalloutsPracticeController_lvl_4 {
 
+
     public String methodB(){
     	return 'Hi! Jake!';
     }
+
+
+    publick String methodA(){
+	return 'Hi!'; 
+    }
+	
 
     @RemoteAction
     public static String putStringJSON(String dateSelect) {
